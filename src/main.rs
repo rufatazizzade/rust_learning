@@ -1,5 +1,6 @@
 use std::io;
 fn main() {
+    //lesson 3 start topic: strings
     let mut name = String::new();
     io::stdin().read_line(&mut name).expect("Failed to read line");
 
@@ -16,6 +17,7 @@ fn main() {
 
     println!("{}", faculty_email);
     println!("{}", general_email);
+    //lesson 3 end 
 
 
 }
