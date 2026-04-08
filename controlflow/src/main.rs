@@ -11,6 +11,7 @@ fn main() {
     let surname = surname.trim();
     let firstpart;
     let secondpart;
+    //lesson 4 start topic: controlflow
 
     if name.len() < 3{
         firstpart = name.get(0..name.len()).unwrap().to_string();
@@ -25,6 +26,7 @@ fn main() {
     else{
         secondpart = surname.get(0..5).unwrap().to_string();
     }
+    //lesson 4 end topic: controlflow
 
     let username = secondpart.to_lowercase() + &firstpart.to_lowercase();
 
