@@ -2,6 +2,15 @@
 
 This project is a simple Rust program that generates a university-style user account from a person's **name** and **surname**.
 
+Please note that:
+Vectors folder:
+Codes in vectors folder is more advanced version of this project. In this folder we are using vectors to store data. And It is possible to add more than one user.
+
+Functions folder:
+Codes in functions folder is more easy to read logic of code. In these codes we using seperate functions for each action. It is more organized and easy to understand.
+
+If you want to understand code use functions folder, if you want to see advanced version of this project use vectors folder.
+
 The program:
 - reads a user's name and surname from standard input,
 - creates a username based on those values,
